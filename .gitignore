@@ -1,0 +1,84 @@
+# .gitignore for RecruitAI
+
+# ─── Python / Backend ───────────────────────────
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+env/
+ENV/
+.env
+.venv
+pip-log.txt
+pip-delete-this-directory.txt
+*.egg
+*.egg-info/
+dist/
+build/
+eggs/
+parts/
+var/
+sdist/
+develop-eggs/
+.installed.cfg
+lib/
+lib64/
+*.manifest
+*.spec
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+nosetests.xml
+coverage.xml
+*.cover
+*.log
+*.pot
+*.sqlite
+*.db
+
+# Alembic
+backend/alembic/versions/*.pyc
+
+# Uploads (user files)
+backend/uploads/
+uploads/
+
+# ─── Node / Frontend ─────────────────────────────
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+.npm
+.yarn-integrity
+frontend/dist/
+frontend/build/
+.vite/
+
+# ─── Environment Files ───────────────────────────
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+backend/.env
+frontend/.env
+
+# ─── IDE ─────────────────────────────────────────
+.vscode/
+.idea/
+*.swp
+*.swo
+*.DS_Store
+Thumbs.db
+
+# ─── Docker ──────────────────────────────────────
+.docker/
+
+# ─── AI Models (large files) ─────────────────────
+*.pkl
+*.joblib
+models/

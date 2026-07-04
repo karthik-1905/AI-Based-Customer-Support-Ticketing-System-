@@ -1,0 +1,17 @@
+fastapi
+uvicorn[standard]
+sqlalchemy
+alembic
+pydantic[email]
+pydantic-settings
+python-jose[cryptography]
+passlib[bcrypt]
+python-multipart
+aiofiles
+pdfplumber
+python-docx
+python-dotenv
+pytest
+httpx
+aiosqlite
+greenlet
